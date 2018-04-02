@@ -3,7 +3,11 @@
 
 **Step 1 - Download OpenVPN GUI client and our OpenVPN client configuration files**
 
-Download latest OpenVPN GUI client from [here.](http://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable.exe)
+For Windows XP 32-bit - Download latest OpenVPN GUI client from [here.](http://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-winxp-i686.exe)
+
+For Windows XP 64-bit - Download latest OpenVPN GUI client from [here.](http://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-winxp-x86_64.exe)
+
+For Windows Vista or newer - Download latest OpenVPN GUI client from [here.](http://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable.exe)
 
 Download [PrivateVPN](https://privatevpn.com) OpenVPN client configuration files from [here.](https://privatevpn.com/client/PrivateVPN-TUN.zip)
 
