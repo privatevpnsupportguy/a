@@ -10,7 +10,7 @@ Let's start!
 
 Latest Tunneblick is available [here.](https://github.com/Tunnelblick/Tunnelblick/releases/tag/v3.7.5beta01)
 
-Download our OpenVPN configuration files from [here.](https://privatevpn.com/client/PrivateVPN-TUN.zip)
+Download our OpenVPN configuration files from [here.](https://github.com/privatevpnsupportguy/a/blob/master/PrivateVPN-TUN-CBC.zip)
 
 ![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/40/1.jpg)
 
@@ -42,11 +42,11 @@ A confirmation dialogue box as seen below appears upon successful installation o
 
 **Step 3 - Importing PrivateVPN client configuration files in Tunnelblick**
 
-Navigate to Downloads folder and double-click *PrivateVPN-TUN.zip* file to extract files to *PrivateVPN-TUN* folder.  
+Navigate to Downloads folder and double-click *PrivateVPN-TUN-CBC.zip* file to extract files to *PrivateVPN-TUN-CBC* folder.  
 
 ![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/46/9.medium.jpg)
 
-Navigate to ***UDP*** (recommended) or *TCP* folder inside *PrivateVPN-TUN* folder.
+Navigate to ***UDP*** (recommended) or *TCP* folder inside *PrivateVPN-TUN-CBC* folder.
 
 ![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/52/10.medium.jpg)
 
