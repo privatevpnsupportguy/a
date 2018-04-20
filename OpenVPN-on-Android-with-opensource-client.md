@@ -25,7 +25,7 @@ For the purpose of this guide, I have used PrivateVPN's OpenVPN configuration fi
 ![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/129/Screenshot_20180420-124128.medium.jpg)
 
 Tap on 'tick' icon from top-right to import it finally.
- ![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/130/Screenshot_20180420-124519.medium.jpg)
+![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/130/Screenshot_20180420-124519.medium.jpg)
 
 **Step 3 - Connecting to PrivateVPN's OpenVPN servers**
 
