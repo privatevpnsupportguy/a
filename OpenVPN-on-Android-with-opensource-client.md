@@ -1,4 +1,4 @@
-Setup OpenVPN on Android with opensource OpenVPN for Android client
+Setup OpenVPN on Android with OpenVPN for Android client
 --
 
 **Step 1 - Install OpenVPN for Android client and download our OpenVPN client configuration files**
