@@ -9,7 +9,9 @@ For Windows XP 64-bit - Download latest OpenVPN GUI client from [here.](http://b
 
 For Windows Vista or newer - Download latest OpenVPN GUI client from [here.](http://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable.exe)
 
-Download [PrivateVPN](https://privatevpn.com) OpenVPN client configuration files from [here.](https://privatevpn.com/client/PrivateVPN-TUN.zip)
+Download [PrivateVPN](https://privatevpn.com) OpenVPN client configuration files for Windows XP from [here.](https://github.com/privatevpnsupportguy/a/blob/master/PrivateVPN-TUN-CBC.zip)
+
+Download [PrivateVPN](https://privatevpn.com) OpenVPN client configuration files for Windows 7 or newer from [here.](https://privatevpn.com/client/PrivateVPN-TUN.zip)
 
 ![enter image description here](https://media.vakil.win/mgoblin_media/media_entries/54/0.medium.jpg)
 
