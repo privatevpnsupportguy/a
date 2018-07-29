@@ -9,7 +9,7 @@ For the purpose of this guide, I am going to use PrivateVPN's OpenVPN-TUN-UDP co
 
 Install OpenVPN with Network Manager plugin from a terminal window:
 
-    sudo apt-get install network-manager-openvpn network-manager-openvpn-gnome
+    sudo apt-get install network-manager-openvpn network-manager-openvpn-gnome resolvconf
 
 **Step 2 - Download and extract the raw OpenVPN standalone configuration files**
 
