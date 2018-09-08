@@ -8,7 +8,7 @@ Let's start!
  
 **Step 1 - Download Tunnelblick and PrivateVPN OpenVPN configuration files**
 
-Latest Tunneblick is available [here.](https://github.com/Tunnelblick/Tunnelblick/releases/tag/v3.7.5beta01)
+Latest Tunneblick is available [here.](https://github.com/Tunnelblick/Tunnelblick/releases/)
 
 Download our OpenVPN configuration files from [here.](https://github.com/privatevpnsupportguy/a/blob/master/PrivateVPN-TUN-CBC.zip)
 
