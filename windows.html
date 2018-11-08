@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="windows_files/style.css">
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="configure-openvpn-client-as-service-on-windows">Configure OpenVPN client as service on Windows</h2>
+<p>In order to get OpenVPN GUI to auto-start and auto-connect on boot, 
+we need to pick a single configuration for a particular location that we
+ wish to connect on every boot.</p>
+<p>For the purpose of this guide, I am going to use PrivateVPN’s OpenVPN-TUN-UDP configuration for India.</p>
+<p><strong>Step 1 - Editing your OpenVPN client configuration</strong></p>
+<p>Open .ovpn file in Notepad application, look for <strong># Crypto</strong> section and make the following changes as seen in the image below:</p>
+<pre><code>auth-user-pass user.auth
+auth-retry nointeract
+auth-nocache
+</code></pre>
+<p><img src="windows_files/1.jpg" alt="enter image description here"></p>
+<p>Save and close the .ovpn file.</p>
+<p><strong>Step 2 - Storing your <a href="http://privatevpn.com/">PrivateVPN.com</a> credentials in a file</strong></p>
+<p>Open Notepad application and type your PrivateVPN username in first line and password in second, save the file as <strong>user.auth</strong>.</p>
+<p><img src="windows_files/2.jpg" alt="enter image description here"></p>
+<p><strong>Step 3 - Import edited .ovpn file and user.auth file to OpenVPN config folder</strong></p>
+<p>Navigate to Program files - OpenVPN - config folder of your main 
+Windows installation. Copy your edited .ovpn file and user.auth there. 
+When prompted for Administrative permission, grant it to Continue.</p>
+<p><img src="windows_files/3.jpg" alt="enter image description here"></p>
+<p><strong>Step 4 - Configuring OpenVPN service to start automatically on boot</strong></p>
+<p>Start <strong>Run</strong> application from Start Menu or by using keyboard shortcut combination <strong>Ctrl+R</strong> and input <strong>services.msc</strong> in the text field there and click OK.</p>
+<p><img src="windows_files/4.png" alt="enter image description here"></p>
+<p>Locate <strong>OpenVpnService</strong> (Not OpenVPN Legacy Service or OpenVPN Interactive Service) and double-click on it.</p>
+<p><img src="windows_files/5.png" alt="enter image description here"></p>
+<p>A dialog box appears, change Startup type to <strong>Automatic</strong>, and click <strong>Apply</strong> followed by <strong>OK</strong>. That is all. OpenVPN configuration file should connect right away and on every boot automatically.</p>
+<p><img src="windows_files/6.png" alt="enter image description here"></p>
+<blockquote>
+<p>Note: You are not required to use OpenVPN GUI client any more. 
+‘OpenVpnService’ would automatically connect you to respective 
+PrivateVPN OpenVPN server on boot.</p>
+</blockquote>
+<p>You are now done configuring OpenVPN client as service on Windows OS. Navigate to <a href="http://privatevpn.com/">PrivateVPN.com</a> to check if you are connected to VPN also do a reboot to make sure it persists.</p>
+<p>Enjoy!</p>
+</div>
+
+
+
+</body></html>
